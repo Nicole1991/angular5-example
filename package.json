@@ -22,12 +22,13 @@
     "@angular/router": "^8.2.14",
     "angular-in-memory-web-api": "^0.9.0",
     "core-js": "^3.4.2",
+    "idb": "^4.0.5",
     "install": "^0.13.0",
     "npm": "^6.5.0",
     "rxjs": "^6.5.3",
+    "rxjs-compat": "^6.0.0-rc.0",
     "tslib": "^1.10.0",
-    "zone.js": "~0.10.2",
-    "rxjs-compat": "^6.0.0-rc.0"
+    "zone.js": "~0.10.2"
   },
   "lint-staged": {
     "*.scss": "stylelint --syntax=scss",

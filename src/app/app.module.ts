@@ -8,11 +8,12 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
-import { HeroService } from './service/hero.service';
 import { MessagesComponent } from './messages/messages.component';
-import { MessageService } from './service/message.service';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { InMemoryDataService } from './service/in-memory-data.service';
+import { InMemoryDataService } from './service/in-memory/in-memory-data.service';
+import { HeroService } from './service/hero/hero.service';
+import { MessageService } from './service/message/message.service';
+
 
 @NgModule({
   declarations: [
