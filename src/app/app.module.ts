@@ -13,6 +13,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { InMemoryDataService } from './service/in-memory/in-memory-data.service';
 import { HeroService } from './service/hero/hero.service';
 import { MessageService } from './service/message/message.service';
+import { IdbService } from './service/idb/idb.service';
 
 
 @NgModule({
@@ -33,10 +34,11 @@ import { MessageService } from './service/message/message.service';
       InMemoryDataService, { dataEncapsulation: false }
     )
   ],
-  providers: [
-    HeroService,
-    MessageService,
-  ],
+    providers: [
+        HeroService,
+        MessageService,
+        IdbService,
+    ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
